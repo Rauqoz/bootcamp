@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Form } from 'react-bootstrap';
 
 const UrlShortener = () => {
-	const base_url = 'http://localhost:4500';
+	const base_url = 'https://bootcamp-back-rauqoz.vercel.app';
 	const [ l_send, setL_send ] = useState('');
 	const [ l_receive, setL_receive ] = useState('');
 

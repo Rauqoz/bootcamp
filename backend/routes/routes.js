@@ -2,7 +2,7 @@ const routes = require('express').Router();
 const crypto = require('crypto-js');
 const url_shortener = [];
 // { url: '', key: '' }
-const base_url = 'http://localhost:4500';
+const base_url = 'https://bootcamp-back-rauqoz.vercel.app';
 
 function generate_encript_(url) {
 	return crypto.AES.encrypt(url, '').toString().substr(0, 5);
